@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f3f3f3;
+}
+.form{
+display: block;
+}
+input, label{
+    display: block;
+  
+}
+
+.form{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 0;
+    background-color: white;
+  
+}
+
+form{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input{
+    display: block;
+    width: 12rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    margin:  5px auto;
+text-align: center;
+border: 2px solid darkgreen;
+}
+
+form label{
+    display: block;
+    width: 12rem;
+    margin: 0 auto;font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+form button{
+    display: block;
+    width: 10rem;
+    margin: 10px auto; 
+    border: none;
+    background-color: orangered;
+    padding: 5px 0;
+    border-radius: 6px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.edit{
+    margin-left: 30px;
+    font-size: 19px;
+}
+.edit:hover{
+ color: orangered;
+ text-decoration: none;
+}
+.form h2{
+    display: block;
+  padding: 10px 0;
+    background-color: #C4EE90;
+    color:darkblue;
+    text-align: center;
+}
+.form p{
+    background-color: #C4EE90;
+    display: block;
+    color: darkblue ;
+    margin:10px auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
